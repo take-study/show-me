@@ -1,0 +1,49 @@
+.app {
+  background-image: url("https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN");
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.sbox {
+  width: 78%;
+  box-sizing: border-box;
+  min-height: 40px;
+  max-height: 52px;
+  height: 100%;
+  min-width: 580px;
+  max-width: 596px;
+  white-space: nowrap;
+  top: 27%;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+}
+.search_box {
+  width: 100%;
+  background-color: transparent;
+  font: normal 1rem "Segoe UI", Arial, Helvetica, Sans-Serif;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: flex-end;
+  display: inline-flex;
+  border-radius: 24px;
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+}
+.search {
+  background-color: transparent;
+  padding: 12px 10px 12px 0px;
+  flex: 1;
+  border: 0;
+  outline: none;
+  -webkit-appearance: none;
+  font-size: 1.125rem;
+  font: inherit;
+}
